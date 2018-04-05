@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fnnfkd YDQN</title>
+        <link href="http://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css">
+        <link href="main.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body>
+        <div class="main">
+            <div id="logo">
+                <img src="zero.png" alt="Special Projects Division"><br />
+            </div>
+            <div id="form">
+                Agent ID: <input id="agentID"><br />
+                Password: <input id="password" type="password"><br />
+                <button id="submitBtn" type = "submit">LOG IN</button><br />
+                <a id="idLink" href="#">Forgot your Agent ID?</a><br />
+                <a id="pwLink" href="#">Forgot your Password?</a>
+            </div>
+            <div id="buttons">
+                ACCESS GRANTED FOR KEVIN MARCUS<br />
+                Please select from the following options:<br /><br />
+                <button id="editBtn">EDIT PROGRAM</button>
+                <button id="viewBtn">VIEW CODE</button>
+                <button id="deleteBtn">DELETE PROGRAM</button>
+            </div>
+            <div id="console">
+                <div class="left">
+                    CONSOLE:&gt;<br />
+                </div>
+                <div id="edit">
+                    THIS PROGRAM HAS BEEN SCHEDULED FOR LAUNCH.<br />
+                    NO FURTHER EDITING IS ALLOWED.
+                </div>
+                <img id="view" src="code.png" alt="Image did not load">
+                <div id="delete">
+                    YOUR ACCESS HAS BEEN RESTRICTED.<br />
+                    SECURITY PHRASE REQUIRED FOR SYSTEM OVERRIDE.<br />
+                    <input id="security" type="password"><br />
+                    <button id="securityBtn">VERIFY</button>
+                </div>
+                <div id="denied">
+                    ACCESS DENIED.
+                </div>
+            </div>
+        </div>
+        
+        <div id="success">
+                PROJECT "GOOGLE ZERO" HAS BEEN TERMINATED.
+        </div>
+        
+        <div id="overlay">
+            <p id="textDestination1" class="audiowide"></p>
+            <p id="textDestination2" class="monospace"></p>
+        </div>
+        
+        <div id="alertBG"></div>
+        <div id="alert">
+            <div id="emptyFields">
+                <strong>ALL FIELDS ARE REQUIRED.</strong><br /><br />
+                If you don't remember your Agent ID or Password, click one of the links below.
+            </div>
+            <div id="incorrectCredentials">
+                <strong>INCORRECT CREDENTIALS.</strong><br /><br />
+                If you don't remember your Agent ID or Password, click one of the links below.
+            </div>
+            <div id="forgotID">
+                <strong>FORGOT YOUR AGENT ID?</strong><br /><br />
+                During orientation, you created your encrypted email address by using a one-letter Caesar Cipher on your Agent ID.<br /><br />
+                <em>Don't remember what a Caesar Cipher is? Google it!</em>
+            </div>
+            <div id="forgotPW">
+                <strong>FORGOT YOUR PASSWORD?</strong><br /><br />
+                Maybe you should pay closer attention to your email.
+            </div>
+            <button id="alertBtn">OK</button>
+        </div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <script src="jquery-ui.min.js"></script>
+    </body>
+</html>
